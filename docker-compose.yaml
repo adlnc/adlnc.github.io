@@ -4,7 +4,6 @@ services:
     image: klakegg/hugo:0.107.0-alpine
     volumes:
       - ./src/:/src
-      - ./docs/:/docs
     user: "1000:1000"
     command: serve --bind=0.0.0.0 -D
     ports:
