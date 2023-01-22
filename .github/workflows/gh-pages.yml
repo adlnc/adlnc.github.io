@@ -23,6 +23,10 @@ jobs:
 
       - name: Build
         run: hugo --minify -s src
+      - name: e
+        run: ls -al
+      - name: f
+        run: ls -al ./docs
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
