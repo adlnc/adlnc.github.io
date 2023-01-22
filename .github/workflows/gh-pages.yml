@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main  # Set a branch that will trigger a deployment
-      - test
+      - gh-pages
   pull_request:
 
 jobs:
