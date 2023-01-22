@@ -24,6 +24,6 @@ git submodule update --remote --merge
 
 ```
 ## CI
-On main branch push,  
-Pipeline runs `hugo --minify -s src`  
+On `main` branch push, pipeline builds (runs `hugo --minify -s src`)  
 Generates static files to ../public because `src/config/_default/config.toml` has `publishDir = "../public"`  
+Then pushes to `gh-pages` branch which is configured to be used by GitHub Pages (Settings>Pages>Branch)  
