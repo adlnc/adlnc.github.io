@@ -25,4 +25,4 @@ git submodule update --remote --merge
 ```
 
 Pipeline runs `hugo --minify`
-Generates static files to /docs because `src/config/_default/config.toml` has `publishDir = "/docs"`
+Generates static files to /docs because `src/config/_default/config.toml` has `publishDir = "./docs"`
