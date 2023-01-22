@@ -26,12 +26,12 @@ jobs:
       - name: e
         run: ls -al
       - name: f
-        run: ls -al ./docs
+        run: ls -al ./public
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
+          publish_dir: ./public
           # cname: adlnc.ovh

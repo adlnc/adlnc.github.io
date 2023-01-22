@@ -23,6 +23,7 @@ git submodule update --remote --merge
 # edit src/config/_default/config.toml, languages, etc...
 
 ```
-
-Pipeline runs `hugo --minify`
-Generates static files to /docs because `src/config/_default/config.toml` has `publishDir = "./docs"`
+## CI
+On main branch push,  
+Pipeline runs `hugo --minify -s src`  
+Generates static files to ../public because `src/config/_default/config.toml` has `publishDir = "../public"`  
