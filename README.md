@@ -1,6 +1,8 @@
 # adlnc.github.io
 
-[blowfish](https://blowfish.page/)
+[hugo](https://gohugo.io/) + [blowfish](https://blowfish.page/)
+
+For fun.
 
 ## Commands
 ```sh
