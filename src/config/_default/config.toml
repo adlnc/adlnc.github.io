@@ -6,6 +6,9 @@ theme = "blowfish"
 baseURL = "https://adlnc.ovh/"
 defaultContentLanguage = "en"
 publishDir = "../public"
+# contentDir = "./content/en"
+
+
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
@@ -15,6 +18,8 @@ summaryLength = 30
 
 buildDrafts = false
 buildFuture = false
+
+timeZone = "Europe/Paris"
 
 googleAnalytics = "G-T7N29W2RFB"
 
@@ -26,6 +31,9 @@ googleAnalytics = "G-T7N29W2RFB"
   category = "categories"
   author = "authors"
   series = "series"
+
+[permalinks]
+  post = "/:slug/"
 
 [sitemap]
   changefreq = 'daily'

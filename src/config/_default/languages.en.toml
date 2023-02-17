@@ -5,16 +5,30 @@ isoCode = "en"
 weight = 1
 rtl = false
 
-title = "Adlnc"
+# title = "Adlnc"
 # logo = "img/logo.png"
-description = "My awesome website"
-# copyright = "Copy, _right?_ :thinking_face:"
+description = "website for fun"
+copyright = "&copy; Adlnc 2023"
 
 dateFormat = "2 January 2006"
 
+
+
+[Languages]
+[Languages.en]
+title = "Documentation for Hugo Learn Theme"
+weight = 1
+languageName = "English"
+
+[Languages.fr]
+title = "Documentation du thème Hugo Learn"
+weight = 2
+languageName = "Français"
+
+
 [author]
   name = "Adlnc"
-  image = "img/blowfish_logo.png"
+  image = "img/9211645B.png"
   headline = "Fearless lone explorer :boat:"
   # bio = ""
   links = [

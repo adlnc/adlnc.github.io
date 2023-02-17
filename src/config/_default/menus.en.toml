@@ -12,52 +12,34 @@
 # icon set: https://blowfish.page/samples/icons/
 
 [[main]]
-  name = "Blog"
-  pageRef = "posts"
-  weight = 10
+  name = "Home"
+  pageRef = "/"
+  weight = 1
 
 [[main]]
-  name = "Parent"
-  weight = 20
-
-[[main]]
-  name = "example sub-menu 1"
-  parent = "Parent"
+  name = "Posts"
   pageRef = "posts"
   weight = 20
 
 [[main]]
-  name = "example sub-menu 2"
-  parent = "Parent"
-  pageRef = "posts"
-  weight = 20
+  name = "Links"
+  pageRef = "links"
+  weight = 25
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 40
 
 [[subnavigation]]
-  name = "An interesting topic"
-  pageRef = "tags/interesting-topic"
-  weight = 10
-
-[[subnavigation]]
-  name = "My Awesome Category"
-  pre = "github"
-  pageRef = "categories/awesome"
-  weight = 20
-
-[[main]]
-  name = "Categories"
-  pageRef = "categories"
-  weight = 20
-
-[[main]]
-  name = "Tags"
-  pageRef = "tags"
+  name = "Please note that this website only purpose is to experiment stuff."
+  # pre = "github"
+  # pageRef = "categories/stack"
   weight = 30
-
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
-
 
 [[footer]]
   name = "Tags"
